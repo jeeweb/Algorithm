@@ -14,5 +14,5 @@ if (a == b && b == c) {
 } else if (b == c && a != b) {
   console.log(1000 + b * 100);
 } else if (a != b && b != c && a != c) {
-  console.log(Math.max(...input) * 100);
+  console.log(a * 100);
 }
